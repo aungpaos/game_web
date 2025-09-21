@@ -1,0 +1,35 @@
+#header {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.linkline {
+    color: rgb(0, 0, 255);
+    background-color: aliceblue;
+}
+
+.normalline {
+    color: black; 
+    background-color: white;
+    font-size: 24px;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.img {
+    height: 100px; width: 100px;
+}
+
+.img:active {
+    border: 5px solid pink;
+    
+}
+
+.margin {
+    margin: 100px auto;
+}
+
+.justify {
+    justify-content: center;
+}
