@@ -54,13 +54,13 @@ function compare() {
 function result() {
     result = document.getElementById("title_result")
     if (player_result == 0) {
-        result.innerText = "Bot wins"
+        result.innerText = "Bot wins" + " " + "Press F5 to restart"
     }
     else if (player_result == 1) {
-        result.innerText = "Player wins"
+        result.innerText = "Player wins" + " " + "Press F5 to restart"
     }
     else if (player_result == 2) {
-        result.innerText = "Tie"
+        result.innerText = "Tie" + " " + "Press F5 to restart"
     }
     
 
